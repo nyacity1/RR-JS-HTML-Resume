@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> "contact"</title>
+    </head>   
+    <body>
+    </form>
+        <p>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+             <br>
+            <label for="phone">Contact phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="212-555-1212" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+            Phone number type: <input type="radio" id="landline" name="phoner" value="landline"required>
+            <label for="Lnadline">Landline</label>
+
+            <input type="radio" id="mobile" name="phone" value="mobile"required>
+            <label for="mobile">Mobile</label><br>
+           
+            <br>
+            <label for="email">Contact email:</label> (text field, limit of 50 characters)<br>
+            <input type="email" id="email" name="email" maxlenght="50" required>
+            <br>
+            <br>
+            <label for ="hear_about_us"> How did you hear about us?: </label>
+            <br>
+                <select id="hear_about_us">
+                    <option value="Search Engine"> Search Engine </option>
+                    <option value="Social Media"> Social Media </option>
+                    <option value="Recruiter"> Recruiter </option>
+                </select> 
+            <br>
+            
+            <br>
+            Interest for contacting:
+            <br>
+                <input type="checkbox" id="html" name="html" value="Html">
+                <label for="html"> HTML</label><br>
+                <input type="checkbox" id="css" name="css" value="css">
+                <label for="css"> CSS</label><br>
+                <input type="checkbox" id="javascript" name="javascript" value="javascript">
+                <label for="javascript"> JavaScript</label>
+            <br>
+                
+            <br>
+            <label for="message">Message (text area, limit of 250 characters)</label>
+            <textarea id="messeage" name="message" placeholder="Please Write something.." maxlength="250" rows="5" cols=75"></textarea>
+            <br>
+        </p>
+        Message Use of labels with all form fields Use of validation
+  
+    <br>
+    <input type="submit" value="Submit">
+    </form>  
+
+    
+
+<footer>
+    <p>&copy;2020 Millicent Ogutu, My Personal Resume</p>
+</footer>
+    </body>
+</html>
+
